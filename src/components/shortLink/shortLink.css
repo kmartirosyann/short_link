@@ -1,0 +1,22 @@
+.short_link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.short_link p {
+    flex: 1;
+    color: #fff;
+    border: 1px solid var(--primary-color);
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+}
+
+.short_link button {
+    padding: 0.5rem 1rem;
+    background: var(--primary-color);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}

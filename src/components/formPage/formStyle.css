@@ -1,0 +1,35 @@
+.inputForm h1 {
+    font-size: 3.5rem;
+}
+
+.inputForm h1 span {
+    color: var(--primary-color)
+}
+
+.inputForm div {
+    display: flex;
+    width: 100%;
+}
+
+.inputForm input {
+    flex: 1;
+    padding: 0.5rem 0.2rem 0.5rem 0;
+    text-indent: 1rem;
+    font-size: 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px 0 0 5px;
+    border-right: none;
+    outline: none;
+}
+
+.inputForm button {
+    font-weight: bold;
+    font-size: o.8rem;
+    padding: 0 1rem;
+    background: var(--primary-color);
+    color: #fff;
+    border: 1px solid var(--primary-color);
+    border-radius: 0 5px 5px 0;
+    border-left: none;
+    cursor: pointer;
+}
